@@ -16,8 +16,6 @@ Modifiez les propriétés des éléments suivants, afin qu'ils aient le même co
 - les titres de section (👉 se rendre dans le composant `/partials/section.html`)
 - le bouton "Favourite" des cartes (👉 se rendre dans le composant `/partials/card.html`)
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/iwolfisberg/exercice-positionnement/blob/main/src/video/instructions.mov" type="video/mp4">
-</video>
+![](https://github.com/iwolfisberg/exercice-positionnement/blob/main/src/video/instructions.mov)
 
 Normalement, vous n'avez pas besoin de toucher au HTML, juste le SCSS.
