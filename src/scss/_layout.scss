@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  @media screen and (max-width: $lg) {
+    font-size: 6rem;
+  }
+
+  @media screen and (max-width: $md) {
+    font-size: 4.5rem;
+  }
+}
+
+.section {
+  margin-bottom: 4rem;
+
+  &-title {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: $white;
+
+    h2 {
+      @include title-h2;
+    }
+  }
+}

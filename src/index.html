@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice sur le positionnement</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Le header reste visible, même lorsqu'on scroll -->
+    <header class="header">
+      <div class="header-content container">
+        <div class="header-content-part1">
+          <button type="button">
+            <img src="img/icons/burger.svg" alt="Icône burger menu" />
+          </button>
+          <a href="#" class="logo">Logo</a>
+        </div>
+        <div class="header-content-part2">
+          <button class="btn btn-secondary">Log In</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Welcome to this website</h1>
+      </div>
+      <include src="partials/section.html">{"title": "Section One"}</include>
+      <include src="partials/section.html">{"title": "Section Two"}</include>
+    </main>
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-content-part1">
+          <a href="#" class="logo">Logo</a>
+          <div class="footer-social-medias">
+            <a href="#"
+              ><img src="img/icons/facebook.svg" alt="Lien vers Facebook"
+            /></a>
+            <a href="#"
+              ><img src="img/icons/instagram.svg" alt="Lien vers Instagram"
+            /></a>
+            <a href="#"><img src="img/icons/x.svg" alt="Lien vers X" /></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-content-part2">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Pricing</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Faites en sorte de positionner cet élément dans le coin en bas à droite. L'élément doit rester visible lorsqu'on scroll -->
+    <div class="cookie">
+      <div class="cookie-content">
+        <h2 class="title">We use cookies</h2>
+        <p class="content">
+          Click “Accept” to enable this company to use cookies to personalize
+          this site, and to deliver ads and measure their effectiveness on other
+          apps and websites, including social media. Customize your preferences
+          in your Cookie Settings or click “Reject” if you do not want us to use
+          cookies for this purpose. Learn more in our
+        </p>
+        <div>
+          <button class="btn btn-secondary">Reject</button>
+          <button class="btn btn-primary">Accept</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

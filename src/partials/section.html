@@ -1,0 +1,34 @@
+<section class="section">
+  <!-- Le titre de la section reste présent à l'écran en en-tête de son bloc -->
+  <div class="section-title">
+    <div class="container"><h2>{{ title }}</h2></div>
+  </div>
+  <div class="container">
+    <div class="row g-3 g-md-5">
+      <include src="partials/card.html">
+        { "img": "./img/cards/img-1.jpg", "title": "Card title one",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut sed dolor purus. Integer a est a leo condimentum ullamcorper. Donec
+        id tincidunt mi." }
+      </include>
+      <include src="partials/card.html">
+        { "img": "./img/cards/img-2.jpg", "title": "Card title two",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut sed dolor purus. Integer a est a leo condimentum ullamcorper. Donec
+        id tincidunt mi." }
+      </include>
+      <include src="partials/card.html">
+        { "img": "./img/cards/img-3.jpg", "title": "Card title three",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut sed dolor purus. Integer a est a leo condimentum ullamcorper. Donec
+        id tincidunt mi." }
+      </include>
+      <include src="partials/card.html">
+        { "img": "./img/cards/img-4.jpg", "title": "Card title four",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut sed dolor purus. Integer a est a leo condimentum ullamcorper. Donec
+        id tincidunt mi." }
+      </include>
+    </div>
+  </div>
+</section>
